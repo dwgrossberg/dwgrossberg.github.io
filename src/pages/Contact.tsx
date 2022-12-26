@@ -2,12 +2,12 @@
 import { css } from "@emotion/react";
 import SendAMessage from "../components/SendAMessage";
 import { Divider } from "@chakra-ui/react";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 import { motion } from "framer-motion";
 import { Link } from "@chakra-ui/react";
-import GitHubSVG from "../components/GitHubSVG";
-import GmailSVG from "../components/GmailSVG";
-import LinkedInSVG from "../components/LinkedInSVG";
+import GitHubSVG from "../components/GitHubSVG.jsx";
+import GmailSVG from "../components/GmailSVG.jsx";
+import LinkedInSVG from "../components/LinkedInSVG.jsx";
 import "../styles/pages.css";
 import { Fragment } from "react";
 

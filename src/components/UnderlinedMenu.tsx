@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { Dispatch, SetStateAction } from "react";
-import MenuItem from "./MenuItem";
+import MenuItem from "./MenuItem.jsx";
 
 const UnderlinedMenu = ({
   selected,

@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Dispatch, SetStateAction, useRef } from "react";
 import { motion, useCycle } from "framer-motion";
-import { useDimensions } from "../utilities/useDimensions";
-import { MobileMenuToggle } from "./MobileMenuToggle";
-import { MobileNav } from "./MobileNav";
+import { useDimensions } from "../utilities/useDimensions.js";
+import { MobileMenuToggle } from "./MobileMenuToggle.jsx";
+import { MobileNav } from "./MobileNav.jsx";
 import "../styles/mobileMenu.css";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 
 const sidebar = {
   open: (height = 500) => ({

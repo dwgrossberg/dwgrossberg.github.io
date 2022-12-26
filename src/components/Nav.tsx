@@ -2,11 +2,11 @@
 import { css } from "@emotion/react";
 import { Box, Flex } from "@chakra-ui/react";
 import { HashLink } from "react-router-hash-link";
-import UnderlinedMenu from "./UnderlinedMenu";
+import UnderlinedMenu from "./UnderlinedMenu.jsx";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import ToggleSwitch from "./ToggleSwitch";
-import AnimatedLogo from "./AnimatedLogo";
-import { MobileMenu } from "./MobileMenu";
+import ToggleSwitch from "./ToggleSwitch.jsx";
+import AnimatedLogo from "./AnimatedLogo.jsx";
+import { MobileMenu } from "./MobileMenu.jsx";
 
 export default function Nav({
   colorMode,

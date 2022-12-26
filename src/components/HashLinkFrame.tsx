@@ -1,8 +1,8 @@
-import MyStory from "../pages/MyStory";
-import Home from "../pages/Home";
-import Projects from "../pages/Projects";
-import TechStack from "../pages/TechStack";
-import Contact from "../pages/Contact";
+import MyStory from "../pages/MyStory.jsx";
+import Home from "../pages/Home.jsx";
+import Projects from "../pages/Projects.jsx";
+import TechStack from "../pages/TechStack.jsx";
+import Contact from "../pages/Contact.jsx";
 import { motion, Variants } from "framer-motion";
 
 const HashLinkFrame = ({

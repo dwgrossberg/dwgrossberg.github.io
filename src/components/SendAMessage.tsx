@@ -3,8 +3,8 @@ import { css } from "@emotion/react";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import theme from "../utilities/theme";
-import AnimatedArrow from "../components/AnimatedArrow";
+import theme from "../utilities/theme.js";
+import AnimatedArrow from "../components/AnimatedArrow.jsx";
 import "../styles/pages.css";
 
 const SendAMessage = ({ colorMode }: { colorMode: string }): JSX.Element => {

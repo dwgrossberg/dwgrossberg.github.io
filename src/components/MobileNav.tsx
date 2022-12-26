@@ -1,6 +1,5 @@
-import * as React from "react";
 import { motion } from "framer-motion";
-import { MobileMenuItem } from "./MobileMenuItem";
+import { MobileMenuItem } from "./MobileMenuItem.jsx";
 import { Dispatch, MouseEventHandler, SetStateAction } from "react";
 
 const variants = {

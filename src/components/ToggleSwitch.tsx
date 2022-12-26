@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { motion } from "framer-motion";
 import { Dispatch, SetStateAction, useState } from "react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 
 const ToggleSwitch = ({
   colorMode,

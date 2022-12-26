@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { motion } from "framer-motion";
 import { MouseEventHandler } from "react";
 import { HashLink } from "react-router-hash-link";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 
 const MenuItem = ({
   text,

@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { motion } from "framer-motion";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 
 const AnimatedLogo = ({
   colorMode,

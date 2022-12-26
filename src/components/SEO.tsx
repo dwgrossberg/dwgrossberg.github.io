@@ -43,7 +43,7 @@ const SEO = ({
         content={description}
       />
       <link rel="canonical" href={canonical ?? DOMAIN} />
-      <link rel="shortcut icon" href="/public/favicon.ico" />
+      <link rel="shortcut icon" href="/favicon.ico" />
     </Helmet>
   );
 };

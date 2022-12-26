@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import SEO from "../components/SEO";
-import theme from "../utilities/theme";
+import SEO from "../components/SEO.jsx";
+import theme from "../utilities/theme.js";
 import { Link } from "react-router-dom";
 
 const NotFound = ({ colorMode }: { colorMode: string }): JSX.Element => {

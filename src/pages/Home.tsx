@@ -1,9 +1,9 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import WavyText from "../components/WavyText";
+import WavyText from "../components/WavyText.jsx";
 import { motion, Variants } from "framer-motion";
-import theme from "../utilities/theme";
-import AnimatedLine from "../components/AnimatedLine";
+import theme from "../utilities/theme.js";
+import AnimatedLine from "../components/AnimatedLine.jsx";
 import { Fragment } from "react";
 import "../styles/pages.css";
 

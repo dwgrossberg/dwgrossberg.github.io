@@ -1,8 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import theme from "../utilities/theme";
-import ProjectCard from "../components/ProjectCard";
-import projectDetails from "../utilities/projectDetails";
+import theme from "../utilities/theme.js";
+import ProjectCard from "../components/ProjectCard.jsx";
+import projectDetails from "../utilities/projectDetails.js";
 import { Fragment } from "react";
 
 import "../styles/pages.css";

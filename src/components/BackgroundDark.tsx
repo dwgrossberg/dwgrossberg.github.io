@@ -1,5 +1,5 @@
-import CSSDoodle from "../utilities/doodle";
-import theme from "../utilities/theme";
+import CSSDoodle from "../utilities/doodle.js";
+import theme from "../utilities/theme.js";
 const BackgroundDark = () => {
   return (
     <CSSDoodle

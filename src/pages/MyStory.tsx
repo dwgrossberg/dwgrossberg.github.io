@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 import { Image } from "@chakra-ui/react";
 import casualMe from "../assets/casualMe.jpg";
 import useFitText from "use-fit-text";

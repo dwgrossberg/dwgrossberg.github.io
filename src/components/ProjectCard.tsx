@@ -2,10 +2,10 @@
 import { css } from "@emotion/react";
 import { motion, Variants, useScroll, useTransform } from "framer-motion";
 import { Divider, Link } from "@chakra-ui/react";
-import theme from "../utilities/theme";
-import AnimatedStackLine from "./AnimatedStackProject";
+import theme from "../utilities/theme.js";
+import AnimatedStackLine from "./AnimatedStackProject.jsx";
 import { useState } from "react";
-import AnimatedStackGit from "./AnimatedStackGit";
+import AnimatedStackGit from "./AnimatedStackGit.jsx";
 
 const ProjectCard = ({
   colorMode,

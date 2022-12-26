@@ -1,8 +1,7 @@
-import * as React from "react";
 import { motion } from "framer-motion";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 import { Dispatch, MouseEventHandler, SetStateAction } from "react";
-import MenuItem from "./MenuItem";
+import MenuItem from "./MenuItem.jsx";
 
 const variants = {
   open: {

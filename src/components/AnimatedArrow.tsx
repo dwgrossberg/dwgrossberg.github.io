@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 
 const AnimatedArrow = ({
   colorMode,

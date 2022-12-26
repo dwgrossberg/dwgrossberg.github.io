@@ -12,9 +12,8 @@ import {
 } from "@chakra-ui/react";
 import { motion, isValidMotionProp } from "framer-motion";
 import { icons } from "../assets/icons";
-import theme from "../utilities/theme";
+import theme from "../utilities/theme.js";
 import { Fragment } from "react";
-
 import "../styles/pages.css";
 
 const TechStack = ({

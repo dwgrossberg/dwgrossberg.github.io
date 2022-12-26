@@ -1,15 +1,15 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 import { FC, useEffect, useState } from "react";
-import Nav from "./components/Nav";
-import HashLinkFrame from "./components/HashLinkFrame";
-import storage from "./utilities/storage";
-import BackgroundDark from "./components/BackgroundDark";
-import BackgroundLight from "./components/BackgroundLight";
-import SEO from "./components/SEO";
-import NotFound from "./pages/NotFound";
+import Nav from "./components/Nav.jsx";
+import HashLinkFrame from "./components/HashLinkFrame.jsx";
+import storage from "./utilities/storage.js";
+import BackgroundDark from "./components/BackgroundDark.jsx";
+import BackgroundLight from "./components/BackgroundLight.jsx";
+import SEO from "./components/SEO.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const App: FC = () => {
   const [colorMode, setColorMode] = useState(localStorage.colorMode || "dark");
@@ -48,7 +48,7 @@ const App: FC = () => {
         >
           {colorMode === "dark" ? <BackgroundDark /> : <BackgroundLight />}
         </div>
-        <HashRouter>
+        <BrowserRouter>
           <Nav
             colorMode={colorMode}
             setColorMode={setColorMode}
@@ -68,7 +68,7 @@ const App: FC = () => {
             />
             <Route path="*" element={<NotFound colorMode={colorMode} />} />
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </div>
     </ChakraProvider>
   );
