@@ -13,9 +13,12 @@ cd dist
 echo > .nojekyll
 
 # if you are deploying to a custom domain
-# echo 'www.danielgrossberg.com' > CNAME
+echo 'https://danielgrossberg.com' > CNAME
 
 # deploy via surge
 surge
 
 cd -
+
+git add -A
+git commit -a -m "Run build && deploy via Surge"
