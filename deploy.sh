@@ -21,4 +21,4 @@ surge
 cd -
 
 git add -A
-git commit -a -m "Run build && deploy via Surge"
+git commit -a -m "Run build && deploy via Surge (deploy.sh)"

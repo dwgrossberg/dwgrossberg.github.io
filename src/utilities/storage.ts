@@ -1,8 +1,5 @@
-const storage = () => {
-  localStorage.setItem(
-    "colorMode",
-    localStorage.colorMode === "dark" ? "light" : "dark"
-  );
+const storage = (mode: string) => {
+  localStorage.setItem("colorMode", mode);
 };
 
 export default storage;

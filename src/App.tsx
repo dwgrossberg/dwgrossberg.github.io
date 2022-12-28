@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 import { FC, useEffect, useState } from "react";
 import Nav from "./components/Nav.jsx";
@@ -23,7 +23,7 @@ const App: FC = () => {
     };
   }, []);
   useEffect(() => {
-    storage();
+    storage(colorMode);
   }, [colorMode]);
   return (
     <ChakraProvider>
